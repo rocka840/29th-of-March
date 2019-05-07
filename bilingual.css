@@ -75,3 +75,11 @@ a:active {
 .toot:hover {
     opacity: 0.5;
 }
+
+#roomcon {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: none;
+}
