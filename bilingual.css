@@ -10,6 +10,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+    font-family: inherit;
+}
+
 p {
     text-align: center;
 }
@@ -76,10 +81,29 @@ a:active {
     opacity: 0.5;
 }
 
+.info {
+    width: 1300px;
+    height: 700px;
+    display: inline-block;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    height: 80px;
+    margin-top: -40px;
+    left: 0px;
+}
+
+#container {
+    position: relative;
+    height: 800px;
+}
+
 #roomcon {
-    width: 500px;
-    height: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: none;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    height: 600px;
+    margin-top: -300px;
 }
