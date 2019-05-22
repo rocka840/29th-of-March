@@ -3,57 +3,90 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="bilingual.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-    <div id="navigation">
+<body style="background-color: grey">
+    <div class="text-center" style="background: rgb(248, 108, 57)">
         <a href="kodu.html">kodu</a>
         <a href="info.html">info</a>
         <a href="kontakt.html">kontakt</a>
         <a href="">tooted</a>
-        <a href="products.html"><img class="imgl" src="eng.png" alt="uk flag"></a>
+        <a href="products.html"><img style="width:5%" src="eng.png" alt="uk flag"></a>
     </div>
 
-    <h1>Meie tooted</h1>
-    <h2>Põranda- ja Seinakatted, värvid ja muu.</h2>
-    <h3>(Muutuvad iga kuu)</h3>
+    <h1 class="text-center">Meie tooted</h1>
+    <h2 class="text-center">Põranda- ja Seinakatted, värvid ja muu.</h2>
+    <h3 class="text-center">(Muutuvad iga kuu)</h3>
 
-    <div class="toot">
-        <img class="ed" src="wood.jpg" alt="tiles">
-        <p>Puu paneel </p>
-        <p>Hind: 45EUR</p>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="wood.jpg" alt="tiles" style="width: 100%; height: 391px">
+                <div class="caption">
+                    <p>Puu paneel </p>
+                    <p>Hind: 45EUR</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="marble.jpg" alt="tiles" style="width: 100%; height: 391px;">
+                <div class="caption">
+                    <p>Marble paneel</p>
+                    <p>Hind: 70EUR</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="flow.jpg" alt="wallpaper" style="width: 100%; height: 391px;">
+                <div class="caption">
+                    <p>Lille Rull</p>
+                    <p>Hind: 25EUR Rull</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="toot">
-        <img class="ed" src="marble.jpg" alt="tiles">
-        <p>Marble paneel</p>
-        <p>Hind: 70EUR</p>
-    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="brick.jpg" alt="wallpaper" style="width: 100%; height: 391px">
+                <div class="caption">
+                    <p>Kivi Rull</p>
+                    <p>Hind: 45EUR Rull</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="toot">
-        <img class="ed" src="flow.jpg" alt="wallpaper">
-        <p>Lille Rull</p>
-        <p>Hind: 25EUR Rull</p>
-    </div>
 
-    <div class="toot">
-        <img class="ed" src="brick.jpg" alt="wallpaper">
-        <p>Kivi Rull</p>
-        <p>Hind: 45EUR Rull</p>
-    </div>
 
-    <div class="toot">
-        <img class="ed" src="paint.jpg" alt="paint">
-        <p>Värv (iga värv on olemas)</p>
-        <p>Hind: 10EUR</p>
-    </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="paint.jpg" alt="paint" style="width: 100%; height: 391px">
+                <div class="caption">
+                    <p>Värv (iga värv on olemas)</p>
+                    <p>Hind: 10EUR</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="toot">
-        <img class="ed" src="tööriistad.jpg" alt="tööriistad">
-        <p>Tööriistad</p>
-        <p>Hind: Pakk 18EUR</p>
-    </div>
+
+
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="tööriistad.jpg" alt="tööriistad" style="width: 100%; height: 391px">
+                <div class="caption">
+                    <p>Tööriistad</p>
+                    <p>Hind: Pakk 18EUR</p>
+                </div>
+            </div>
+        </div>
 
 </body>
 
