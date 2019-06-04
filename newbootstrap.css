@@ -1,0 +1,9 @@
+body {
+    background-color: grey;
+    display: inline-block;
+}
+
+.Product_img {
+    width: 385px;
+    height: 385px;
+}
