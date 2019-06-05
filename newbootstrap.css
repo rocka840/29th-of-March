@@ -4,6 +4,6 @@ body {
 }
 
 .Product_img {
-    width: 385px;
-    height: 385px;
+    width: auto;
+    height: 391px;
 }

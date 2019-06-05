@@ -2,92 +2,86 @@
 <html>
 
 <head>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="newbootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 
-<body style="background-color: grey">
-    <div class="text-center" style="background: rgb(248, 108, 57)">
-        <a href="kodu.html">kodu</a>
-        <a href="info.html">info</a>
-        <a href="kontakt.html">kontakt</a>
-        <a href="">tooted</a>
-        <a href="products.html"><img style="width:5%" src="eng.png" alt="uk flag"></a>
-    </div>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Boss</a>
+                </div>
 
-    <h1 class="text-center">Meie tooted</h1>
-    <h2 class="text-center">Põranda- ja Seinakatted, värvid ja muu.</h2>
-    <h3 class="text-center">(Muutuvad iga kuu)</h3>
+                <ul class="nav navbar-nav">
+                    <li><a href="kodu.html">Kodu</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li class="active"><a href="">Tooted</a></li>
+                    <li>
+                        <a href="products.html"><img style="width:5%" src="eng.png" alt="uk flag"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="wood.jpg" alt="tiles" style="width: 100%; height: 391px">
-                <div class="caption">
+        <div class="jumbotron text-center">
+            <h1 class="text-center">Meie tooted</h1>
+            <h2 class="text-center">Põranda- ja Seinakatted, värvid ja muu.</h2>
+            <h3 class="text-center">(Muutuvad iga kuu)</h3>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img class="Product_img" src="wood.jpg" alt="tiles">
                     <p>Puu paneel </p>
                     <p>Hind: 45EUR</p>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="marble.jpg" alt="tiles" style="width: 100%; height: 391px;">
-                <div class="caption">
+                <div class="col-sm-4 text-center">
+                    <img class="Product_img" src="marble.jpg" alt="tiles">
                     <p>Marble paneel</p>
                     <p>Hind: 70EUR</p>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="flow.jpg" alt="wallpaper" style="width: 100%; height: 391px;">
-                <div class="caption">
+                <div class="col-sm-4 text-center">
+                    <img class="Product_img" src="flow.jpg" alt="wallpaper">
                     <p>Lille Rull</p>
                     <p>Hind: 25EUR Rull</p>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="brick.jpg" alt="wallpaper" style="width: 100%; height: 391px">
-                <div class="caption">
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img class="Product_img" src="brick.jpg" alt="wallpaper">
                     <p>Kivi Rull</p>
                     <p>Hind: 45EUR Rull</p>
                 </div>
-            </div>
-        </div>
 
 
 
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="paint.jpg" alt="paint" style="width: 100%; height: 391px">
-                <div class="caption">
+                <div class="col-sm-4 text-center">
+                    <img class="Product_img" src="paint.jpg" alt="paint">
                     <p>Värv (iga värv on olemas)</p>
                     <p>Hind: 10EUR</p>
                 </div>
-            </div>
-        </div>
 
 
 
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="tööriistad.jpg" alt="tööriistad" style="width: 100%; height: 391px">
-                <div class="caption">
+                <div class="col-sm-4 text-center">
+                    <img class="Product_img" src="tööriistad.jpg" alt="tööriistad">
                     <p>Tööriistad</p>
                     <p>Hind: Pakk 18EUR</p>
                 </div>
             </div>
         </div>
-
 </body>
 
 </html>
