@@ -2,21 +2,39 @@
 <html>
 
 <head>
+
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="bilingual.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="newbootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <div id="navigation">
-        <a href="kodu.html">kodu</a>
-        <a href="">info</a>
-        <a href="kontakt.html">kontakt</a>
-        <a href="tooted.html">tooted</a>
-        <a href="about.html"><img class="imgl" src="eng.png" alt="uk flag"></a>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Boss</a>
+                </div>
+
+                <ul class="nav navbar-nav">
+                    <li><a href="kodu.html">Kodu</a></li>
+                    <li class="active"><a href="">Info</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="tooted.html">Tooted</a></li>
+                    <li>
+                        <a href="about.html"><img style="width:8%" src="eng.png" alt="eng flag"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <h2>Meie company Boss, tahab aidata inimesi kellel on abi vaja kujundada enda toasi kodus. Muidugi me teeme sisekujudust ka väljas pool, mis ei ole inimeste kodus aga selle teenuste jaoks maksab rohkem.</h2>
-    <h3>Me saame maksu ainult siis teada kui me saame teada selle kliendi tahmiseid. Palun kanatage kui me arvutame teie maksu.</h3>
-    <p>Mõned näited ruumidest mida me oleme sisekujundanud:</p>
+
+    <h2 class="text-center">Meie company Boss, tahab aidata inimesi kellel on abi vaja kujundada enda toasi kodus.</h2>
+    <h3 class="text-center">Me saame maksu ainult siis teada kui me saame teada selle kliendi tahmiseid. Palun kanatage kui me arvutame teie maksu.</h3>
+    <p class="text-center">Mõned näited ruumidest mida me oleme sisekujundanud:</p>
 
     <img class="info" src="blueroom.jpg" alt="blue">
     <img class="info" src="purpleroom.jpg" alt="purple">
