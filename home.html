@@ -2,26 +2,40 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="newbootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="bilingual.css">
+
 </head>
 
 <body>
-    <div id="navigation">
-        <a href="">home</a>
-        <a href="about.html">about</a>
-        <a href="contacts.html">contact</a>
-        <a href="products.html">products</a>
-        <a href="kodu.html"><img class="imgl" src="flag.jpg" alt="estonian flag"></a>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Boss</a>
+                </div>
+
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li>
+                        <a href="kodu.html"><img style="width:5%" src="flag.jpg" alt="est flag"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 
-    <h1>Boss</h1>
-    <h2>We are a company who desgin your rooms, more info on other pages. Selling our own Limited Edition products.</h2>
+    <h1 class="text-center">Boss</h1>
+    <h2 class="text-center">We are a company who desgin your rooms, more info on other pages. Selling our own Limited Edition products.</h2>
 
 
-    <img id="homeimg" class="img-thumbnail" src="roomonb.jpg" alt="room">
+    <img src="roomonb.jpg" alt="room">
 </body>
 
 </html>
