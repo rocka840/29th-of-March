@@ -8,4 +8,7 @@ body {
     height: 300px;
 }
 
-.contactimg {}
+.contactimg {
+    width: 400px;
+    height: 400px;
+}
