@@ -14,11 +14,11 @@ body {
 }
 
 .homeimg {
-    width: 1100px;
-    height: 800px;
+    width: 100%;
+    height: auto;
 }
 
 .aboutimg {
-    width: 1100px;
-    height: 800px;
+    width: 100%;
+    height: auto;
 }
